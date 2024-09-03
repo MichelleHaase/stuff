@@ -30,3 +30,4 @@ shows all previous  Log entries for the repository
 ## git checkout HASH -- filename
 
 gets the file as it was at point HASH (works also without filename but then gets the hole Commit at point HASH) with main (master in GitLab) instead of HASH the most currently pushed file gets used again. if you want to go back to a former version of file make sure the the Head(current WDir file) is on the Main(most recently pushed file) so that you stay in the main branch (so you don't actually go back to the file but reupload it as the newest Version).
+
