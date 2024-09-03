@@ -7,6 +7,3 @@ shows if there're untracked changes
 commits the changes to local Repository
 ## git push
 syncs the local with the remote repository(uploads changes)
-
-
-
