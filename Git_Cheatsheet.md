@@ -1,5 +1,8 @@
 # Basic Git commands 
 
+## help for mess ups
+[Oh shit Git](https://ohshitgit.com/)
+
 ## git clone
 
 clones a remote Repository
@@ -18,6 +21,11 @@ syncs the local with the remote repository(uploads changes)
 ## git mv oldFilename newFilename
 
 renames the file, on the lvl of the operating system there is no renaming, files locations get deleted and the new name inserted at the same place. if no new name is inserted (actual deletion) the data stays and gets overwritten when new data is created in the memory space it is. Git cant discern between deleting an d renaming if its done outside of the git command because it just gets a new Address (name) for the Data, which would lead to the creation of new file in the repository with the same data but a new name. This can cost a lot of space and more important does not connect the old file to new named one. with git mv instead of just mv this is avoided,
+
+## git rm
+
+same problem as with mv. Removes a file directly from Git not just the local repo, no add needed its automatically staged   
+git rm --cached stops the tracking of file in git without deleting it locally
 ## git pull 
 
 updates the local repository to the state of the remote one
