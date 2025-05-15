@@ -10,5 +10,9 @@
 !u::Send "ü"
 +!u::Send "Ü"
 
-; Alt-s = ß
+; Alt-e-= = €
+!e::Send "€"
+
+; Alt-s = ß, Shift+Alt-s = ẞ
 !s::Send "ß"
++!s::Send "ẞ"
